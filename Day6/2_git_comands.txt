@@ -1,0 +1,10 @@
+# Git Configuration
+
+1. git config  --global user.name "<your-username>"
+2. git config  --global user.email "<your-email>"
+
+
+3. git config  --global user.name 
+4. git config  --global user.email
+
+5. git init : it initalizes a local repository
