@@ -9,4 +9,7 @@
     List all the remotes in the repo
 
 4. git remove
-    It removes remote from the repo
+    It removes remote from the local repo
+
+
+5. 
