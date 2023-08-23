@@ -1,4 +1,4 @@
-# We have different methods to add and remove iteams in a sets
+# We have different methods to add and remove items in a sets
 
 
 #add()
@@ -14,7 +14,7 @@ print(s) #{1,2,4,3,6,5}
 
 
 # discard()
-s.discard(4)    #discard() tekes element as an argument
+s.discard(4)    #discard() takes element as an argument
 print(s)  #{1,2,3,5,6}
 s.discard(10)   #It doesnot raise error
 

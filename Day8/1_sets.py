@@ -1,4 +1,4 @@
-# Set is a mutable datatype in python. But, the elements of the set must be immutable
+# Sets is a mutable datatype in python. But, the elements of the set must be immutable
 # Unlike list, set is un ordered. so, indexing and slicing is not possible in python.
 # IN set {1,2} is equal to {2,1}
 
