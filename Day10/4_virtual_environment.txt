@@ -1,0 +1,19 @@
+# You may have diffrent projects with diffrent packages in your system.
+# Your one project may require pandas version 2.1 while other project may require pandas version 2.2
+# If you want to do both the projects in your global system then problem may arise.
+# To do one project you need ti install one package and for other project the others package
+# Now to solve this problem we can use virtual environment
+
+
+
+commands for virtual environment
+1. python -m venv venv
+    it creates a new virtualenvironment with name "venv"
+
+2. venv\Scripts\activate (for windows sevice enter this command on command prompt)
+   source venv/bin/activate (for mac and linux devices enter this command on terminal)
+    it activates the virtual environment
+
+
+3. deactivate
+        it deactivate the environment

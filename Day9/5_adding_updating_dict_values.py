@@ -14,4 +14,4 @@ print(student)
 
 student.update(lastname="ABC")
 print(student)
-#
+#{'name': 'jon', 'age': 30, 'address': 'KTM', 'roll_no': 21, 'institute': 'broadway', 'phone_no': 95666555, 'lastname': 'ABC'}
