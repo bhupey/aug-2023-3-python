@@ -15,3 +15,5 @@ else:
     ot_pay = ot * rate * 1.5
     total_pay = normal_pay + ot_pay
 print(f"Total pay is {total_pay}")
+
+

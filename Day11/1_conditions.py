@@ -46,3 +46,7 @@ elif b > c:
     print("b is greater than c")
 else:
     print("c is the greatest")
+
+
+#We can also create one line conditions. this one-linear condition us called ternary if
+print("a is greater") if a > b else print("b is greater")
