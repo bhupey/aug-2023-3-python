@@ -13,7 +13,8 @@ def add_15_to_each(element):
     return element + 15
 
 
-result = map(add_15_to_each, nums)  # map() returns a map object which is an iterator. But to see the
+result = map(add_15_to_each, nums)  
+# map() returns a map object which is an iterator. But to see the
 # actual data, we need to convert it to some other datatype
 print(list(result))  # [16, 17, 18, 19, 20]
 
