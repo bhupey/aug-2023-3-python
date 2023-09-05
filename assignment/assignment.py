@@ -3,6 +3,18 @@
 of n+nn+nnn + …
 """
 
+num = int (input("Enter any number: "))
+if num < 10:
+    new_num = 0
+    total = 0
+    for _ in range(num):
+        new_num = new_num*10+num
+        total += new_num
+else:
+    print("It is valid only for single digit number")
+print(total)
+
+
 
 """
 2. Write a Python program to calculate the difference between a given 
@@ -23,7 +35,7 @@ print(f"The result is: {result}")
 """
 3. Write a Python program to check whether the input number is prime or 
 not.
-"""
+
 num = int (input("Enter a number: "))
 if num < 2:
     prime = False
@@ -39,3 +51,5 @@ if prime:
     print(f"{num} is prime number")
 else:
     print(f"{num} is not prime number")
+
+"""
