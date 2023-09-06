@@ -34,6 +34,7 @@ print(Vehicle.engine_type)  # petrol
 print(v1.engine_type)   # diesel
 
 
+
 # __init__() function inside a class is called when the object of the class is created. So, this
 # function is also called as a constructor
 # print(Vehicle.color)   # it raises attribute error because color is not a class attribute it is an

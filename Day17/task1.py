@@ -4,6 +4,7 @@ Create a method get_details in this class to print name and age.
 """
 
 
+
 class Person:
     def __init__(self, name, age):
         self.name = name
@@ -28,3 +29,7 @@ class Employee(Person):
 
 e1 = Employee("Jon", 25)
 print(e1.get_details())
+
+
+
+
